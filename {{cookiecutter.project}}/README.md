@@ -7,3 +7,4 @@ Date Created: {% now 'local', '%m/%d/%Y' %}
 - PyLint (https://www.pylint.org/)
 - PyTest (https://docs.pytest.org/en/latest/#)
 - MyPy (http://mypy-lang.org/)
+- YAPF (https://github.com/google/yapf)
