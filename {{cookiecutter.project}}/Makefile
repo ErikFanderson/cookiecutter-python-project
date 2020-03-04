@@ -17,4 +17,4 @@ type:
 
 # Runs all tests in tests directory 
 test:
-	pytest -v
+	pytest -v tests
