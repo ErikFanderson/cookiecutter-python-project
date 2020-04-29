@@ -18,3 +18,7 @@ type:
 # Runs all tests in tests directory 
 test:
 	pytest -v tests
+
+# Export anaconda environment
+export:
+	conda env export --from-history | grep -v "prefix" > environment.yml
